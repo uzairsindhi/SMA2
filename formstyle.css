@@ -1,0 +1,19 @@
+
+       body{
+           background-color: #FFFFFF;
+           width: 21cm;
+           height: 29.7cm;
+           border: 2px black solid;
+           padding-left: 2dvw;
+           margin: auto;
+       }
+       p {
+           text-align: center;
+       }
+
+       #imga {
+        width: 140px;
+        float: right;
+        padding-right: 2dvw;
+        
+       }

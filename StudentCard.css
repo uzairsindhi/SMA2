@@ -1,0 +1,196 @@
+/* studentCard.css */
+#studentcard {
+  /*border: 1px solid #12b31a;*/
+  padding: 20px;
+  width: 1000px;
+  height: 638px;
+  margin: 0 auto;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  background-image: url('./cardbg1.jpg');
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#SchoolName {
+  text-align: center;
+  width: 98%;
+  margin-bottom: 10px;
+}
+.scard {
+  background-color: black;
+  margin: 1px;
+  margin-bottom: 1
+  5px;
+  padding: 15px;
+  color: yellow;
+  display: inline;
+  border: 1px solid white;
+  border-radius: 20px 1px;
+}
+#SchoolName h1 {
+  margin-bottom: 3px;
+}
+
+#SchoolName p {
+  margin-top: 0;
+}
+
+.studentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the start (top) of the container */
+}
+
+#StudentData {
+  text-align: left;
+  width: 48%;
+}
+
+.photo {
+  width: 140px;
+  height: 180px;
+  border: 1px dotted black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+    width: 140px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.studentcar {
+  font-family: 'Arial', sans-serif;
+  font-size: 27px;
+}
+
+#StudentData h1 {
+  margin-bottom: 10px;
+  color: yellow;
+  
+}
+
+#StudentData p {
+  margin: 5px 0;
+}
+
+
+
+
+.ParchiContainer {
+  width: 19.5cm;
+  height: 6.4cm;
+  border: 3px dashed green;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+p {
+  text-align: left;
+  display: inline;
+  align-self: left;
+  margin-right: 5px;
+}
+
+.dynamicdata {
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+}
+
+.parchidata {
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1cm; /* Fixed height for each line, adjust if needed */
+  text-align: left;
+}
+
+.signature {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 4.9cm; /* Fixed width for the signature box */
+  height: 1.7cm; /* Fixed height for the signature box */
+  margin-right: 15px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.signature p {
+  line-height: 2.85cm; /* Adjust the line-height to match the height of the signature box */
+  margin-bottom: 0; /* Remove any default margin */
+}
+#sname {
+  width: 4cm;
+  position: relative;
+  text-align: center;
+}
+#fname {
+  width: 3.9cm;
+  position: relative;
+  text-align: center;
+}
+#mname {
+  width: 3.9cm;
+  position: relative;
+  text-align: center;
+}
+#schname {
+  width: 8.2cm;
+  position: relative;
+  text-align: center;
+}
+#semis {
+  width: 3.9cm;
+  position: relative;
+  text-align: center;
+}
+#schaddress {
+  width: 11.3cm;
+  position: relative;
+  text-align: center;
+}
+#tehsil {
+  width: 3.9cm;
+  position: relative;
+  text-align: center;
+}
+#classno {
+  width: 1.5cm;
+  position: relative;
+  text-align: center;
+}
+#section {
+  width: 1.9cm;
+  position: relative;
+  text-align: center;
+}
+#group {
+  width: 2.4 cm;
+  position: relative;
+  text-align: center;
+}
+#grnum {
+  width: 2.4cm;
+  position: relative;
+  text-align: center;
+}
+#teachername {
+  width: 4.9cm;
+  position: relative;
+  text-align: center;
+}
+#teachercontact {
+  width: 3.9cm;
+  position: relative;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+/*
+this style is purely for generated student list table
+*/
+.tableStyle {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+.tableStyle th, .tableStyle td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableStyle thead {
+  background-color: #f2f2f2;
+}
+
+.tableStyle tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#nalo {
+    width: fit-content;
+}
+#fathernalo {
+    width: fit-content;
+}
+

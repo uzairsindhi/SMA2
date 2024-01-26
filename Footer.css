@@ -1,0 +1,30 @@
+/* Footer.css */
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px; /* Adjusted padding for responsiveness */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 10px; /* Adjusted margin for responsiveness */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    font-size: 14px; /* Adjusted font size for responsiveness */
+  }
+  

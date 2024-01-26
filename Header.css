@@ -1,0 +1,17 @@
+/* Header.css */
+
+.header {
+    background-color: black;
+    color: #f8ed55; /* Youth Yellow */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header strong {
+    color: #00ff00; /* Green */
+  }
+  
+  .header p {
+    margin: 2px 0;
+  }
+  
